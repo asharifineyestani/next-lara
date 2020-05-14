@@ -1,0 +1,45 @@
+/*------------------------------------
+    Newsletter
+------------------------------------*/
+.section-newsletter-1 {
+    background: $primary;
+
+    h2, p {
+        color: white !important;
+    }
+
+
+    img {
+        -webkit-animation-timing-function: cubic-bezier(.54, .085, .5, .92);
+        animation-timing-function: cubic-bezier(.54, .085, .5, .92);
+        -webkit-animation-name: animateUpDown;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        animation-name: animateUpDown;
+        position: absolute;
+
+        width: 75%;
+    }
+
+    img.left {
+
+        z-index: 0;
+        left: 200px;
+        top: -6%;
+        -webkit-animation-duration: 3s;
+        animation-duration: 3.2s;
+    }
+
+    img.right {
+        width: 79%;
+        left: 150px;
+        top: 15%;
+        -webkit-animation-timing-function: cubic-bezier(.54, .085, .5, .92);
+        animation-timing-function: cubic-bezier(.54, .085, .5, .92);
+        -webkit-animation-name: animateUpDown;
+        animation-name: animateUpDown;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        animation-duration: 3.6s;
+    }
+}

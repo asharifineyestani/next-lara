@@ -1,0 +1,157 @@
+/*------------------------------------
+    Section: Quotes
+------------------------------------*/
+
+.section-testimonial {
+    .testimonial-image {
+        position: relative;
+        padding-right: 30px;
+        height: 420px;
+
+        .icon {
+            top: 20px;
+            left: 20px;
+            color: $primary;
+            font-size: 60px;
+            position: absolute;
+        }
+
+        .circle {
+            height: 100%;
+            position: relative;
+
+            .image {
+                top: 0;
+                left: 0;
+                width: 100%;
+                position: absolute;
+                padding-top: 100%;
+                border-radius: 50%;
+                border-top-right-radius: 0;
+            }
+        }
+    }
+
+    .testimonial-item {
+        border: 0;
+        outline: 0;
+
+        padding: $space/2 0;
+
+        p {
+            &:before,
+            &:after {
+                content: '"';
+            }
+        }
+
+        div {
+            position: relative;
+            margin-bottom: 30px;
+
+            .role {
+                display: block;
+                margin-bottom: 30px;
+                color: #999;
+                font-size: 16px;
+            }
+
+            .name {
+                display: block;
+                font-weight: 700;
+                margin-bottom: 3px;
+            }
+        }
+    }
+}
+
+
+.section-testimonial-manager {
+    .testimonial-item {
+        p {
+            &:before,
+            &:after {
+                content: '';
+            }
+        }
+    }
+}
+
+
+/*------------------------------------
+    Quote Slider
+------------------------------------*/
+
+.slick-slider .slick-dots {
+    position: relative;
+
+    li {
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        border-radius: 50%;
+        border: 1px solid;
+
+        &.slick-active {
+            background-color: $base-0;
+
+            button {
+                &:before,
+                &:after {
+                    color: transparent;
+                }
+            }
+        }
+    }
+
+    button {
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        border-radius: 50%;
+
+        &:before,
+        &:after {
+            color: transparent;
+        }
+    }
+}
+
+.slick-slider {
+    &.light .slick-dots li {
+        border-color: $base-0;
+
+        &.slick-active {
+            background-color: $base-0;
+        }
+    }
+
+    &.dark .slick-dots li {
+        border-color: $base-1;
+
+        &.slick-active {
+            border-color: $primary;
+            background-color: $primary;
+        }
+    }
+}
+
+// Slider 1
+.el-slider-1 {
+    position: relative;
+
+    .button-arrow {
+        top: 300px;
+        z-index: 3;
+        position: absolute;
+
+        &.button-arrow-left {
+            left: 43%;
+        }
+
+        &.button-arrow-right {
+            left: calc(45% + 100px);
+        }
+
+    }
+}

@@ -1,0 +1,70 @@
+/*------------------------------------
+    Section: Story
+------------------------------------*/
+
+.section-story {
+
+    .heading-holder {
+        .el-heading {
+            margin: 0 !important;
+            p {
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+
+
+    .story-container {
+        padding-bottom: $space;
+    }
+    .story-image {
+        //background: red;
+        //border: solid 1px green;
+        overflow: hidden;
+        height: 100%;
+        position: relative;
+
+        img {
+            bottom: 0;
+            //position: absolute;
+        }
+    }
+    .story-item {
+
+
+        position: relative;
+        padding-left: 105px;
+        margin-bottom: 45px;
+
+        h3 {
+            font-size: 21px;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+    }
+
+    .story-container:nth-child(even) .column-1 {
+        order: 2;
+    }
+
+    .story-container:nth-child(even) .column-2 {
+        order: 1;
+    }
+}
+
+
+
+/*------------------------------------
+    DesignStory
+------------------------------------*/
+
+.process-holder {
+    max-width: 768px;
+    margin: auto;
+    margin-bottom: $space;
+}

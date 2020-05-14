@@ -1,0 +1,485 @@
+// Hero
+
+.section-hero {
+    height: 100vh;
+    min-height: 600px;
+
+    .img-holder {
+        position: absolute;
+        right: 9%;
+        bottom: 15%;
+        width: 768px;
+        background: no-repeat bottom center / contain;
+
+        float: right;
+
+
+        .inner {
+
+            padding-top: 100%;
+            width: 100%;
+
+            .lamp {
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 38%;
+                bottom: 5%;
+                animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+                animation-name: animateUpDown;
+                animation-iteration-count: infinite;
+                animation-duration: 3.6s;
+            }
+
+            .girl {
+                position: absolute;
+                left: 0;
+                button: 0;
+                width: 22%;
+                bottom: 2px;
+                left: 20%;
+            }
+
+
+            .heart {
+                position: absolute;
+                left: 0;
+                left: 12%;
+                bottom: 42%;
+                width: 8%;
+            }
+
+            .like {
+                position: absolute;
+                left: 0;
+                left: 75%;
+                bottom: 55%;
+                width: 8%;
+            }
+
+            .resize {
+                position: absolute;
+                left: 0;
+                left: 92%;
+                bottom: 45%;
+                width: 6%;
+            }
+        }
+    }
+}
+
+
+.section-hero-ml {
+    .inner {
+
+
+
+        .brain {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 38%;
+            bottom: 45%;
+            animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+            animation-name: animateUpDown;
+            animation-iteration-count: infinite;
+            animation-duration: 3.6s;
+        }
+
+        .light {
+            position: absolute;
+            left: 0;
+            button: 0;
+            width: 40.5%;
+            bottom: 37%;
+            left: 29.5%;
+            //display:none;
+
+            opacity: .06;
+
+            -webkit-animation: spin1 1.7s infinite alternate;
+            animation: spin1 1.7s infinite alternate;
+        }
+
+
+
+        .circle {
+
+            border-radius: 50%;
+            background: #4db2e4;
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            box-shadow: 0px 0px 18px 14px rgba(77,178,228,.3);
+        }
+
+
+        .circle.c1 {
+            width: 2px;
+            height: 2px;
+            left: 42%;
+            bottom: 48%;
+            animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+            animation-name: animateUpDown;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            box-shadow: 0px 0px 16px 12px rgba(77,178,228,.3);
+        }
+
+
+        .circle.c2 {
+            width: 4px;
+            height: 4px;
+            left: 62%;
+            bottom: 70%;
+            animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+            animation-name: animateUpDown;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            box-shadow: 0px 0px 16px 10px rgba(77,178,228,.3);
+            background: #53c1f7;
+        }
+
+        .circle.c3 {
+            width: 5px;
+            height: 5px;
+            left: 66%;
+            bottom: 55%;
+            animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+            animation-name: animateUpDown;
+            animation-iteration-count: infinite;
+            animation-duration: 1.9s;
+            box-shadow: 0px 0px 14px 10px rgba(77,178,228,.2);
+
+        }
+
+        .circle.c4 {
+            width: 4px;
+            height: 4px;
+            left: 38%;
+            bottom: 70%;
+            animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+            animation-name: animateUpDown;
+            animation-iteration-count: infinite;
+            animation-duration: 2.7s;
+            box-shadow: 0px 0px 14px 11px rgba(77,178,228,.3);
+            background: #53c1f7;
+
+        }
+
+        .circle.c5 {
+            width: 3px;
+            height: 3px;
+            left: 45%;
+            bottom: 65%;
+            animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+            animation-name: animateUpDown;
+            animation-iteration-count: infinite;
+            animation-duration: 2.6s;
+            box-shadow: 0px 0px 15px 10px rgba(227, 71, 255, 0.4);
+
+        }
+
+        .circle.c6 {
+            width: 5px;
+            height: 5px;
+            left: 39%;
+            bottom: 58%;
+            animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+            animation-name: animateUpDown;
+            animation-iteration-count: infinite;
+            animation-duration: 2.4s;
+            box-shadow: 0px 0px 15px 10px rgba(227, 71, 255, 0.4);
+            background: #54c8ff;
+        }
+
+
+        .circle.c7 {
+            width: 4px;
+            height: 4px;
+            left: 52%;
+            bottom: 73%;
+            animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+            animation-name: animateUpDown;
+            animation-iteration-count: infinite;
+            animation-duration: 1.8s;
+        }
+
+
+
+
+        .circle.c8 {
+            width: 5px;
+            height: 5px;
+            left: 52%;
+            bottom: 52%;
+            animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+            animation-name: animateUpDown;
+            animation-iteration-count: infinite;
+            animation-duration: 1.7s;
+            background: #54c8ff;
+        }
+
+
+        .circle.c9 {
+            width: 3px;
+            height: 3px;
+            left: 32%;
+            bottom: 55%;
+            animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+            animation-name: animateUpDown;
+            animation-iteration-count: infinite;
+            animation-duration: 1.9s;
+            background: #54c8ff;
+
+        }
+
+
+
+        .circle.c10 {
+            width: 2px;
+            height: 2px;
+            left: 60%;
+            bottom: 52%;
+            animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+            animation-name: animateUpDown;
+            animation-iteration-count: infinite;
+            animation-duration: 2.1s;
+            background: #54c8ff;
+        }
+
+
+    }
+}
+
+
+.section-hero-1 {
+    height: 100vh;
+    min-height: 600px;
+
+    .el-heading {
+        p {
+            margin-bottom: 39px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.section-hero-web {
+    .img-holder {
+        right: 16% !important;
+        bottom: 26% !important;
+        width: 500px !important;
+    }
+}
+
+
+.section-hero-mobile .img-holder {
+    transform: rotate(-20deg) !important;
+    position: relative;
+    top: 10px;
+    width: 400px !important;
+    left: 15px;
+}
+
+
+.section-hero-2 {
+    height: 100vh;
+    min-height: 600px;
+
+    .img-holder {
+        position: absolute;
+        right: 9%;
+        bottom: 15%;
+        width: 768px;
+        background: no-repeat bottom center / contain;
+
+        float: right;
+
+        img {
+            transform: rotate(20deg);
+            position: absolute;
+
+
+
+
+            &.t1 {
+                left: -50%;
+                top: 35%;
+            }
+
+            &.t2 {
+                left: 28%;
+                top: 18%;
+            }
+
+            &.t3 {
+                left: 25%;
+                top: 78%;
+            }
+
+            &.i1 {
+                left: 0%;
+                top: 107%;
+            }
+        }
+
+        .inner {
+
+            .b1 {
+                -webkit-mask: url(/assets/images/blobs/1.svg) no-repeat center;
+                mask: url(/assets/images/blobs/1.svg) no-repeat center;
+                position: absolute;
+                left: -50%;
+                top: 35%;
+                height: 600%;
+                width: 600%;
+                background: red;
+            }
+
+            padding-top: 100%;
+            width: 100%;
+
+            .lamp {
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 38%;
+                bottom: 5%;
+                animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+                animation-name: animateUpDown;
+                animation-iteration-count: infinite;
+                animation-duration: 3.6s;
+            }
+
+            .girl {
+                position: absolute;
+                left: 0;
+                button: 0;
+                width: 22%;
+                bottom: 2px;
+                left: 20%;
+            }
+
+
+            .heart {
+                position: absolute;
+                left: 0;
+                left: 12%;
+                bottom: 42%;
+                width: 8%;
+            }
+
+            .like {
+                position: absolute;
+                left: 0;
+                left: 75%;
+                bottom: 55%;
+                width: 8%;
+            }
+
+            .resize {
+                position: absolute;
+                left: 0;
+                left: 92%;
+                bottom: 45%;
+                width: 6%;
+            }
+        }
+    }
+}
+
+
+
+/*
+ * Hero Scroll
+ */
+.hero-scroll {
+    left: 0;
+    right: 0;
+    bottom: 66px;
+    width: 30px;
+    height: 45px;
+    z-index: 18;
+    margin: auto;
+    position: absolute;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    /*box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2), 0px 6px 10px 0px rgba(0,0,0,0.14), 0px 1px 18px 0px rgba(0,0,0,0.12);*/
+}
+
+.hero-scroll:before {
+    left: 0;
+    right: 0;
+    top: 9px;
+    width: 2px;
+    height: 9px;
+    display: block;
+    background: #fff;
+    position: absolute;
+    border-radius: 3px;
+    margin: auto;
+    content: '';
+
+    animation-name: scroll;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    animation-iteration-count: infinite;
+}
+
+.hero-scroll-line {
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    width: 1px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+}
+
+.hero-scroll-line:before,
+.hero-scroll-line:after {
+    left: 0;
+    right: 0;
+    width: 1px;
+    height: 50px;
+    display: block;
+    content: "";
+}
+
+.hero-scroll-line:before {
+    top: 0;
+    background: #fff;
+}
+
+.hero-scroll-line:after {
+    bottom: 0;
+    background: rgba(16, 5, 77, 1);
+    position: relative;
+    z-index: 99 !important;
+}
+
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(15px);
+        opacity: 0.5;
+    }
+}

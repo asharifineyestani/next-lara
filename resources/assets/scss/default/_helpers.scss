@@ -1,0 +1,358 @@
+/*------------------------------------
+    Helpers
+------------------------------------*/
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.div-center {
+    float: none;
+    display: block;
+    margin: auto;
+    //text-align: center;
+}
+
+.inline-block {
+    float: none;
+    display: inline-block;
+}
+
+.display-wrap {
+    position: relative;
+}
+
+.display-center {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.display-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.display-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.display-spacing {
+    padding-top: $space;
+    padding-bottom: $space;
+}
+
+.display-screen {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.display-full-screen {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    position: relative;
+}
+
+// Max Width
+.max-w-576 {
+    max-width: 576px;
+}
+
+.max-w-768 {
+    max-width: 768px;
+}
+
+.max-w-992 {
+    max-width: 992px;
+}
+
+/*
+* Font Weight
+*/
+@each $i in (1, 2, 3, 4, 5, 6, 7, 8, 9) {
+    $j: $i * 100;
+    .fw-#{$j} {
+        font-weight: $j;
+    }
+}
+
+/*
+* Text Colors
+*/
+.text-dark {
+    color: $black;
+}
+
+.text-dark-1 {
+    color: #333333;
+}
+
+.text-dark-2 {
+    color: #666666;
+}
+
+.text-dark-3 {
+    color: #999999;
+}
+
+.text-light {
+    color: $white;
+}
+
+.text-light-1 {
+    color: #eeeeee;
+}
+
+.text-light-2 {
+    color: #cccccc;
+}
+
+.text-light-3 {
+    color: #aaaaaa;
+}
+
+.text-base-0 {
+    color: $base-0;
+}
+
+.text-base-1 {
+    color: $base-1;
+}
+
+.text-base-1 {
+    color: $base-2;
+}
+
+.text-primary {
+    color: $primary !important;
+}
+
+.text-secondary {
+    color: $secondary;
+}
+
+// Overlay
+.overlay-color {
+    @include overlay("color");
+}
+
+.overlay-image {
+    @include overlay("image");
+}
+
+.overlay-pattern {
+    @include overlay("pattern");
+}
+
+.overlay-gradient {
+    @include overlay("gradient");
+}
+
+// Background Colors
+.bg-primary {
+    background-color: $primary;
+}
+
+.bg-secondary {
+    background-color: $secondary;
+}
+
+.bg-dark {
+    background-color: #000;
+}
+
+.bg-light {
+    background-color: #000;
+}
+
+@each $i in (1, 2, 3, 4, 5, 6, 7, 8, 9, 100) {
+    $j: $i / 10;
+    .bg-dark-#{$i}0 {
+        background-color: rgba(0, 0, 0, $j);
+    }
+}
+
+@each $i in (1, 2, 3, 4, 5, 6, 7, 8, 9, 100) {
+    $j: $i / 10;
+    .bg-light-#{$i}0 {
+        background-color: rgba(255, 255, 255, $j);
+    }
+}
+
+@each $i in (0, 45, 90, 135, 180, 225, 270, 315, 360) {
+    .bg-gradient-#{$i} {
+        @include bg-gradient($i);
+    }
+}
+
+/*------------------------------------
+    Helpers
+------------------------------------*/
+.text-italic {
+    font-style: italic;
+}
+
+.text-normal {
+    font-style: normal;
+}
+
+.text-underline {
+    font-style: underline;
+}
+
+/*------------------------------------
+    Text specialized
+------------------------------------*/
+
+.hidden {
+    display: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*------------------------------------
+    Shadow
+------------------------------------*/
+
+.shadow-1 {
+    box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+
+    &:hover {
+        box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+    }
+}
+
+.shadow-left {
+    box-shadow: -60px 43px 90px rgba(13, 134, 215, 0.18);
+}
+
+.shadow-right {
+    box-shadow: 60px 43px 90px #ccc;
+}
+
+.shadow-center {
+    box-shadow: 0 43px 90px #ccc;
+}
+
+.shadow-3 {
+    box-shadow: 0 0 50px 0 rgba(64, 1, 4, 0.06);
+}
+
+// Grid
+
+.row-0 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.row-0 > * {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.row-xs {
+    margin-left: -6px !important;
+    margin-right: -6px !important;
+}
+
+.row-xs > * {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+}
+
+.row-sm {
+    margin-left: -9px !important;
+    margin-right: -9px !important;
+}
+
+.row-sm > * {
+    padding-left: 9px !important;
+    padding-right: 9px !important;
+}
+
+.row-md {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row-md > * {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.test-1 {
+    background-image: -webkit-linear-gradient(-140deg, #83f3f4 0%, #70b6fe 100%);
+}
+
+.test-2 {
+    background-image: -webkit-linear-gradient(-140deg, #f483a3 0%, #c670fe 100%);
+}
+
+.test-3 {
+    background-image: -webkit-linear-gradient(-140deg, #f0f483 0%, #fec070 100%);
+}
+
+.test-4 {
+    background-image: -webkit-linear-gradient(-140deg, #5cf77d 0%, #70c7fe 100%);
+}
+
+.shadow-circle {
+    box-shadow: 0px 20px 30px 0px rgba(172, 20, 46, 0.24);
+}
+
+.display-block {
+    display: block;
+}
+
+h1 .display-block,
+h2 .display-block,
+h3 .display-block,
+h4 .display-block,
+h5 .display-block,
+h6 .display-block {
+}
+
+.text-gradient {
+    background-image: linear-gradient(to left, $primary, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}

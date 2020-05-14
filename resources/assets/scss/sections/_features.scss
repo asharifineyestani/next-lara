@@ -1,0 +1,32 @@
+/*------------------------------------
+    Section: Features
+------------------------------------*/
+
+.section-features-1 {
+    .feature-item {
+        text-align: center;
+        padding: 45px 30px;
+        margin-bottom: 30px;
+
+        p {
+            color: $text-color;
+            margin-bottom: 25px;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            width: 100px;
+            overflow: hidden;
+            margin: 0 auto 30px;
+        }
+
+        &:hover {
+            @extend .shadow-3;
+        }
+    }
+}
+
