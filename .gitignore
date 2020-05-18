@@ -15,3 +15,4 @@ yarn-error.log
 /public/mix-manifest.json
 /package-lock.json
 /resources/assets/scss/build/
+/._helper.txt

@@ -39,14 +39,13 @@ mix.webpackConfig({
 
 mix.js('resources/js/app.js', 'public/assets/js')
     .sass('resources/sass/app.scss', 'public/assets/css')
-    .sass('resources/assets/scss/style.scss', 'public/assets/css')
-    // .styles([
-    //     'resources/assets/css/icons.min.css',
-    //     'resources/assets/css/bootstrap.min.css',
-    //     'resources/assets/css/plugins.min.css',
-    //     'resources/assets/css/colors.css',
-    //     'resources/assets/css/styles.css',
-    // ], 'public/assets/css/app.css');
+    .sass('resources/assets/scss/style.scss', 'public/assets/css/app.css')
+    .styles([
+        'public/assets/css/app.css',
+        'resources/assets/css/rtl.css',
+        'resources/assets/css/custom.css',
+        'resources/assets/css/laravel.css',
+    ], 'public/assets/css/app.css');
 ;
 
 
