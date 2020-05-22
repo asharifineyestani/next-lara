@@ -491,3 +491,23 @@
     }
 
 }
+
+
+
+/*------------------------------------
+    Hero
+------------------------------------*/
+.section-hero {
+    .display-center {
+        z-index: 15;
+    }
+}
+
+@media (max-width: 992px) {
+    .section-hero {
+        .img-holder {
+            width: 450px;
+            bottom: -45px;
+        }
+    }
+}

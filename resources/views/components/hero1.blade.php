@@ -1,4 +1,4 @@
-<section class="section section-hero section-hero-2">
+<section class="section section-hero section-hero-2 section-hero-8">
 
     <div class="display-center">
         <div class="container">
