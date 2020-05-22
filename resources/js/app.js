@@ -2,6 +2,19 @@
     "use strict";
     var NEO = {};
 
+    /*====== Sidenav - Side Navigation Menu ======*/
+    NEO.Sidenav = function () {
+
+
+        $(".app-header").on("click", ".button-open-sidenav", function () {
+            $(".app-sidenav").addClass("active");
+        });
+
+        $(".app-sidenav").on("click", ".button-close-sidenav", function () {
+            $(".app-sidenav").removeClass("active");
+        });
+    };
+
     /*====== Owl Carousel ======*/
     NEO.SliderHero1 = function () {
         var rtl = $("body").attr("data-NEO-rtl");
@@ -81,7 +94,7 @@
     });
 
     $(document).ready(function () {
-        NEO.SliderHero1(), NEO.SliderServices(), NEO.SliderPosts();
+        NEO.SliderHero1(), NEO.SliderServices(), NEO.SliderPosts(), NEO.Sidenav();
     });
 
 })(jQuery);
