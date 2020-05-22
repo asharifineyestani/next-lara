@@ -29,16 +29,25 @@ class PageController extends Controller
                     "title" => " UI/UX Design",
                     "image" => "/assets/images/features/1-1.png",
                     "url" => "design",
+                    "description" => "Design that suits your business",
                 ],
                 [
-                    "title" => "Artificial intelligence & Machine learning",
+                    "title" => "AI & ML Development",
                     "image" => "/assets/images/features/1-3.png",
                     "url" => "machine-learning",
+                    "description" => "Transform into an AI-driven company, using machine learning models that bring complex solutions for your business needs.",
                 ],
                 [
                     "title" => "Mobile App development",
                     "image" => "/assets/images/features/1-2.png",
                     "url" => "mobile-development",
+                    "description" => "Let’s go Mobile world. Impactful custom app development it is about us.",
+                ],
+                [
+                    "title" => "Web App development",
+                    "image" => "/assets/images/features/1-2.png",
+                    "url" => "web-development",
+                    "description" => "Future Web Platform",
                 ],
             ]
 

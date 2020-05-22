@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-md-2 col-sm-6">
+                <div class="col-6 col-xl-2 col-md-2 col-sm-6">
                     <div class="widget">
                         <h3 class="widget-title">Services</h3>
                         <div class="widget-body">
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-md-2 col-sm-6">
+                <div class="col-6 col-xl-2 col-md-2 col-sm-6">
                     <div class="widget">
                         <h3 class="widget-title">Pages</h3>
                         <div class="widget-body">

@@ -42,23 +42,20 @@ mix.js('resources/js/app.js', 'public/assets/js')
     .sass('resources/assets/scss/style.scss', 'public/assets/css/app.css')
     .styles([
         'public/assets/css/app.css',
-        'resources/assets/css/rtl.css',
-        'resources/assets/css/custom.css',
-        'resources/assets/css/laravel.css',
+        'resources/sass/bootstrap-grid.min.css',
+        'resources/others/style.css',
     ], 'public/assets/css/app.css');
 ;
 
 
-// mix.scripts([
-//     'public/assets/js/app.js',
-//     'resources/assets/js/jquery.min.j',
-//     'resources/assets/js/bootstrap.min.j',
-//     'resources/assets/js/plugins.min.j',
-//     'resources/assets/js/main-scripts.j',
-// ], 'public/assets/js/app.js');
+mix.scripts([
+    'resources/js/jquery.min.js',
+    'resources/js/plugins.js',
+    'resources/js/app.js',
+], 'public/assets/js/app.js');
 
 
 mix.copy('resources/assets/fonts/', 'public/assets/fonts');
-
+mix.copy('resources/others/fonts',  'public/assets/fonts');
 
 
