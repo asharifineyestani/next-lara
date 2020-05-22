@@ -20,7 +20,7 @@ class PageController extends Controller
 
         $features = [
             "heading" => [
-                "h1" => "Services",
+                "title" => "Services",
                 "position" => "center"
             ],
 
@@ -56,7 +56,7 @@ class PageController extends Controller
 
         $blog = [
             "heading" => [
-                "h1" => "Blog",
+                "title" => "Blog",
                 "description" => "News and educational articles and programing on the Afracode blog",
                 "position" => "center"
             ],
