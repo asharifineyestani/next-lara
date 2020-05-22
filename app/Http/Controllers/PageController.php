@@ -510,8 +510,8 @@ class PageController extends Controller
 
         $feature2 = [
             "heading" => [
-                "title" => "Tools:",
-                "subTitle" => "Let your ideas be implemented into reality with the core technologies.",
+                "title" => "Tools",
+//                "subTitle" => "Let your ideas be implemented into reality with the core technologies.",
                 "description" => "We use the most innovative up to date tools to provide you with the highest development standards.",
                 "position" => "center",
             ],

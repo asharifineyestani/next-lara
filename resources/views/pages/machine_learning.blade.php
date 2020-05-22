@@ -10,7 +10,5 @@
     <x-section :items="$call['items']" :heading="$call['heading']" view="call_to_action"/>
     <x-footer/>
 
-
-
 @endsection
 

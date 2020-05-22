@@ -113,3 +113,17 @@
         }
     }
 }
+
+.header-light {
+    .button-menu {
+        span {
+            background-color: #fff;
+
+            &:before,
+            &:after {
+
+                background-color: #fff;
+            }
+        }
+    }
+}

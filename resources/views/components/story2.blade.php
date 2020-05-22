@@ -1,4 +1,4 @@
-<section class="section section-story section-story-about">
+<section class="section section-story section-story-about section-we-offer">
     <div class="display-spacing">
         <div class="container story-container">
             <x-section :items="$heading" view="heading"/>

@@ -1,11 +1,11 @@
-<section class="section section-hero  bg-primary section-hero-ml">
+<section class="section section-hero  bg-primary section-hero-ml section-hero-9 section-hero-ai">
     <span class="hero-scroll"></span>
     <span class="hero-scroll-line"></span>
     <div class="display-center">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-md-6">
-                    <x-section :items="$heading"  view="heading" />
+                    <x-section :items="$heading" view="heading"/>
                 </div>
             </div>
         </div>
