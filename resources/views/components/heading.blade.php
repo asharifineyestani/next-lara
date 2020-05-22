@@ -8,7 +8,7 @@
 
     @isset($items['title'])
         <h2>
-            @isset($items['subTitle'])
+            @isset($items['label'])
                 <span class="display-block fw-100">{{$items['label'] }}</span>
             @endisset
             {{$items['title']}}

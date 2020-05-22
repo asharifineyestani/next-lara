@@ -15,7 +15,7 @@
                                     <img src={{$item['image']}} alt="alt"/>
                                 </div>
                                 <h3>{{$item['title']}}</h3>
-                                <p>{{$item['description']}}</p>
+{{--                                <p>{{$item['description']}}</p>--}}
                                 <a href="{{$item['url']}}">
                                     <button class="button button-md button-primary button-shape button-arrow">
                                         <span class="icon-arrow arrow-right"></span>

@@ -7,41 +7,43 @@ use Illuminate\View\Component;
 class Header extends Component
 {
     public $items;
-    public $logo = 'افرانکست';
-    public $login = 'ورود';
+    public $logo = 'Afracode';
+    public $login = 'Login';
+    public $className;
 
-    public function __construct($items = null)
+    public function __construct($items = null , $className = null)
     {
         $items = [
             [
                 "url" => "/",
-                "title" => "برگ نخست",
+                "title" => "Home",
                 "submenu" => false,
             ],
             [
                 "url" => "/about-us",
-                "title" => "درباره ما",
+                "title" => "About us",
                 "submenu" => false,
             ],
             [
                 "url" => "/service",
-                "title" => "خدمات",
+                "title" => "Services",
                 "submenu" => false,
             ],
             [
                 "url" => "/b",
-                "title" => "وبلاگ",
+                "title" => "Blog",
                 "submenu" => false,
             ],
             [
                 "url" => "/contact-us",
-                "title" => "ارتباط با ما",
+                "title" => "Contact us",
                 "submenu" => false,
             ],
         ];
 
 
         $this->items = (object)$items;
+        $this->className = $className;
     }
 
     /**

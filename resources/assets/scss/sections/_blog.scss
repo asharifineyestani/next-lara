@@ -1,48 +1,48 @@
 /*------------------------------------
     Blog
 ------------------------------------*/
-.section-blog-1 {
-    .card {
-        background: white;
-        border-radius: 16px;
-        overflow: hidden;
-        border: solid 2px black;
 
-        .avatar {
-            width: 100%;
-            overflow: hidden;
-            position: relative;
-            padding-bottom: 60%;
+.card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    border: solid 2px black;
+    height: 100%;
 
-            margin-bottom: 16px;
+    .image {
+        position: relative;
+        padding-top: 60%;
+    }
 
-            img {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
+    .content {
+        padding: 45px 30px 15px !important;
+        text-align: center;
+
+        h3 {
+            font-size: 20px;
+            min-height: 60px !important;
+        }
+
+        h3, p {
+            text-align: left;
+        }
+
+        p {
+            height: 108px;
+            overflow-y: scroll;
+            -ms-overflow-style: none;
+
+            &::-webkit-scrollbar {
+                display: none;
             }
         }
 
-        .content {
-            padding: 15px 30px;
-            text-align: center;
 
-            h3 {
-                font-size: 20px;
-            }
-
-            h3, p {
-                text-align: left;
-            }
-
-
-            button {
-                margin-top: 30px;
-                margin-bottom: 30px;
-            }
-
+        button {
+            margin-top: 30px;
+            margin-bottom: 30px;
         }
+
     }
 }
 
@@ -127,6 +127,7 @@ post-index
 
     .group {
         margin-bottom: 45px;
+
         &.recent-post {
             article {
                 padding: 0;
@@ -137,6 +138,8 @@ post-index
                 .content {
                     padding-top: 5px;
                     padding-bottom: 0;
+
+                    padding: 45px 30px 15px !important;
                 }
 
                 h3 {
@@ -170,10 +173,12 @@ post-index
 
             }
         }
+
         &.categories {
-            ul{
+            ul {
                 padding: 0;
             }
+
             li {
 
                 display: flex;
@@ -200,10 +205,12 @@ post-index
 
 
                 padding: 0;
+
                 li {
-                    &:before{
+                    &:before {
                         content: "#";
                     }
+
                     list-style: none;
                     padding: 5px 10px;
                     border: solid 1px black;
@@ -222,6 +229,7 @@ post-index
     article {
 
         border-radius: 20px !important;
+
         .avatar {
             position: relative;
             overflow: hidden;
@@ -338,6 +346,8 @@ section-post-single
     }
 
     .content {
+
+        padding: 45px 30px 15px !important;
         img {
             margin-bottom: 30px;
         }

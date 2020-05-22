@@ -1,70 +1,81 @@
-<footer class="section section-footer section-footer-1 ">
-    <div class="display-spacing">
+<footer class="app-footer app-footer-1 ">
+    <div class="footer-widgets">
         <div class="container">
-            <div class="footer-container">
-                <div class="row">
-                    <div class="col-xl-3 col-md-3 col-sm-12">
-                        <h2>افرانکست</h2>
-                        <div class="info">
+            <div class="row">
+                <div class="col-xl-3 col-md-3 col-sm-12">
+                    <div class="widget widget-info">
+                        <h2>Afracode</h2>
+                        <div class="widget-body">
                             <p>
-                                <a href="tel:+11112222707">021-33666664</a>
-                                <a href="mailto: info@afracode.com">info@afranext.com</a>
-                                شرکت آینده باور افرا با نام تجاری افرانکست و به شماره ثبت 9973 شکل گرفت تا در ارایه خدمات ماشین لرنینگ و هوش مصنوعی پیشگام باشد.
+                                <a href="tel:+989128182951">+1 (757) 386-2591</a>
+                                <a href="mailto: info@afranext.com">info@afracode.com</a>
+                                By choosing Afracode as a technology partner, you can take on more business and
+                                growth
+                                challenges and get unlimited support of our team.
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-md-2 col-sm-6">
-                        <h3>Services</h3>
-                        <ul class="links">
-                            @foreach($links as $link)
-                                <li>
-                                    <h4><a href="{{$link['url']}}">{{$link['title']}}</a></h4>
-                                </li>
-                            @endforeach
-                        </ul>
-
-
-
-
-
-                    </div>
-                    <div class="col-xl-2 col-md-2 col-sm-6">
-                        <h3>Pages</h3>
-                        <ul class="links">
-                            @foreach($links2 as $link2)
-                                <li>
-                                    <h4><a href="{{$link['url']}}">{{$link['title']}}</a></h4>
-                                </li>
-                            @endforeach
-                        </ul>
-                    </div>
-                    <div class="col-xl-5 col-md-5 col-sm-12">
-                        <h3>Articles</h3>
-                        <ul class="articles">
-                            @foreach($articles as $article)
-                                <a href="{{$article['url']}}">
+                </div>
+                <div class="col-xl-2 col-md-2 col-sm-6">
+                    <div class="widget">
+                        <h3 class="widget-title">Services</h3>
+                        <div class="widget-body">
+                            <ul class="links">
+                                @foreach($links2 as $link2)
                                     <li>
-                                        <div>
-                                            <img src={{$article['image']}} />
-                                        </div>
-                                        <div>
-                                            <h4>
-                                                {{$article['title']}}
-                                            </h4>
-                                            <p>{{$article['created_at']}}</p>
-                                        </div>
+                                        <a href="{{$link2['url']}}">{{$link2['title']}}</a>
                                     </li>
-                                </a>
-                            @endforeach
-                        </ul>
+                                @endforeach
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-2 col-sm-6">
+                    <div class="widget">
+                        <h3 class="widget-title">Pages</h3>
+                        <div class="widget-body">
+                            <ul class="links">
+                                @foreach($links as $link)
+                                    <li>
+                                        <a href="{{$link['url']}}">{{$link['title']}}</a>
+                                    </li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 col-sm-12">
+                    <div class="widget">
+                        <h3 class="widget-title">Blog</h3>
+                        <div class="widget-body">
+                            <div class="articles">
+                                @foreach($articles as $article)
+                                    <div>
+                                        <a href="{{$article['url']}}">
+                                            <div class="image overlay-image"
+                                                 style="background-image: url({{$article['image']}})"></div>
+                                            <div class="content">
+                                                <p>
+                                                    {{$article['title']}}
+                                                </p>
+                                                <span>{{$article['created_at']}}</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <span class="line"></span>
             <div class="copyright">
-                <p>کلیه حقوق این سایت به افرانکست تعلق دارد</p>
+                <p>© 2020 Afracode, Inc. All Rights Reserved</p>
             </div>
-
         </div>
     </div>
 </footer>

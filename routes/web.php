@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+
+Route::get('/ali' , function() {
+    return 1;
+});
 Route::get('/', 'PageController@welcome');
 Route::get('/about-us', 'PageController@aboutUs');
 Route::get('/contact-us', 'PageController@contactUs');

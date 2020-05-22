@@ -43,22 +43,22 @@ class Footer extends Component
         ],
         [
             "url" => "/about-us",
-            "title" => "About",
+            "title" => "About us",
             "submenu" => false,
         ],
         [
             "url" => "/service",
-            "title" => "Service",
+            "title" => "Services",
             "submenu" => false,
         ],
         [
             "url" => "/contact",
-            "title" => "Contact",
+            "title" => "Contact us",
             "submenu" => false,
         ],
         [
             "url" => "/login",
-            "title" => "Sign in",
+            "title" => "Support",
             "submenu" => false,
         ],
 
@@ -71,25 +71,17 @@ class Footer extends Component
             "url" => "/design",
         ],
         [
-            "title" => "Web Development",
+            "title" => "Mobile development",
             "url" => "/web-development",
         ],
         [
-            "title" => "Mobile Development",
+            "title" => "Web development",
             "url" => "/mobile-development",
         ],
         [
-            "title" => "ML & AI",
+            "title" => "AI & ML",
             "url" => "/machine-learning",
-        ],
-        [
-            "title" => "Landing 01",
-            "url" => "/landing1",
-        ],
-        [
-            "title" => "Landing 02",
-            "url" => "/landing2",
-        ],
+        ]
 
 
     ];

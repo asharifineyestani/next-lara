@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-    <x-header/>
+    <x-header className="header-light" />
     <x-section :items="$hero" :heading="$hero['heading']" view="hero2" />
     <x-section :items="$feature['items']" :heading="$feature['heading']" view="feature2" />
     <x-section :items="$story['items']" :heading="$story['heading']" view="story"/>
