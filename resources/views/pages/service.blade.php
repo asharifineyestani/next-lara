@@ -9,7 +9,7 @@
                 <x-section :items="$service['heading']" view="heading"/>
                 <div class="row mb--30">
                     @foreach($service['items'] as $item)
-                        <div class="col-xl-4 col-md-4 col-sm-6">
+                        <div class="col-6 col-xl-3 col-md-3 col-sm-6">
                             <div class="feature-item">
                                 <div class="image">
                                     <img src={{$item['image']}} alt="alt"/>
