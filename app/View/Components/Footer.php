@@ -52,7 +52,7 @@ class Footer extends Component
             "submenu" => false,
         ],
         [
-            "url" => "/contact",
+            "url" => "/contact-us",
             "title" => "Contact us",
             "submenu" => false,
         ],

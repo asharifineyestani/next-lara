@@ -7,8 +7,8 @@
                         <h2>Afracode</h2>
                         <div class="widget-body">
                             <p>
-                                <a href="tel:+989128182951">+1 (757) 386-2591</a>
-                                <a href="mailto: info@afranext.com">info@afracode.com</a>
+                                <a href="tel:+17573862591">+1 (757) 386-2591</a>
+                                <a href="mailto: info@afracode.com">info@afracode.com</a>
                                 By choosing Afracode as a technology partner, you can take on more business and
                                 growth
                                 challenges and get unlimited support of our team.

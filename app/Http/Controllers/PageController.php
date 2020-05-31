@@ -12,8 +12,11 @@ class PageController extends Controller
 
         $hero = [
             "heading" => [
-                "h1" => "One idea can change the world.",
-                "subTitle" => "New ideas will discover new worlds.",
+                "h1" => "With Afracode, 
+				 Invest 
+				 in Your Success!",
+                "subTitle" => "\"The best time to plant a tree was 20 years ago. 
+				The second best time is now.\"",
             ],
         ];
 
@@ -29,7 +32,7 @@ class PageController extends Controller
                     "title" => " UI/UX Design",
                     "image" => "/assets/images/features/1-1.png",
                     "url" => "design",
-                    "description" => "Design that suits your business",
+                    "description" => "Enhance your business with a great design!",
                 ],
                 [
                     "title" => "AI & ML Development",
@@ -38,13 +41,13 @@ class PageController extends Controller
                     "description" => "Transform into an AI-driven company, using machine learning models that bring complex solutions for your business needs.",
                 ],
                 [
-                    "title" => "Mobile App development",
+                    "title" => "Mobile Development",
                     "image" => "/assets/images/features/1-2.png",
                     "url" => "mobile-development",
                     "description" => "Let’s go Mobile world. Impactful custom app development it is about us.",
                 ],
                 [
-                    "title" => "Web App development",
+                    "title" => "Web Development",
                     "image" => "/assets/images/features/1-2.png",
                     "url" => "web-development",
                     "description" => "Future Web Platform",
@@ -57,7 +60,7 @@ class PageController extends Controller
         $blog = [
             "heading" => [
                 "title" => "Blog",
-                "description" => "News and educational articles and programing on the Afracode blog",
+                "description" => "Find the lastest tech news and educational articles on the Afracode blog",
                 "position" => "center"
             ],
 
@@ -82,22 +85,23 @@ class PageController extends Controller
         $hero = [
             "heading" => [
                 "h1" => "UI/UX Design",
-                "subTitle" => "Design that suits your business",
-                "description" => "Meet the greatest design solution for your product. We strongly believe that perfect design is key to customer loyalty. We combine our creativity and experience to find the best way how to impress your customers and make them love your product.",
+                "subTitle" => "Enhance your business with a great design!",
+                "description" => "Keep your customers satisfied with your product/service to make them loyal. Combining our creativity and experience in the design of your website, we find the best way to impress your customers and keep them loyal to your product.
+				Keep your customers happy to make them fall in love with your product.",
             ],
         ];
 
         $story = [
             "heading" => [
-                "title" => "How does the design process look like",
+                "title" => "How does the UI/UX design process look like on Afracode?",
                 "position" => "center",
             ],
             "items" => [
                 [
                     "heading" =>
                         [
-                            "title" => "Empathise",
-                            "description" => "It is an important stage to gain insights about the challenge we are faced with. We involve the best experts to find out all concerns through analysis, engaging and emphasizing with people. It helps us to set aside any possible assumptions and define which goals should we achieve.",
+                            "title" => "The Empathise Stage",
+                            "description" => "First, we need to understand the challenges we are facing with.  With analyzing and interacting with each other, our experts find out all the concerns. This helps us to realize which goal we should achieve.",
 
                         ],
                     "image" => "/assets/images/story/design-1.jpg",
@@ -105,8 +109,8 @@ class PageController extends Controller
                 [
                     "heading" =>
                         [
-                            "title" => "Define the problem",
-                            "description" => "After our research, we collect all information and identify core problems. This stage requires you to share your vision and goal with us. It helps us to stay on the same page with you and it's easier for our designers to create right features and functions to boost your business and solve the issue.",
+                            "title" => "Defining the problem",
+                            "description" => "After researching and gathering the required information, we identify the main problem. At this stage, you as the owner of the project, are required to share your views and needs with us. This will help us to always be close to the project's goal. Also, it will assist our designers to achieve the best features and functions for solving the issue and boosting your business.",
 
                         ],
                     "image" => "/assets/images/story/design-2.jpg",
@@ -114,8 +118,8 @@ class PageController extends Controller
                 [
                     "heading" =>
                         [
-                            "title" => "Ideate",
-                            "description" => "We create as many ideas for problem solutions as possible at the beginning of the Ideation phase. We analyze the market, learn competitors weak and strong sides, determine the target audience needs. It helps us to reduce looses and fails in future.",
+                            "title" => "The Ideation Phase",
+                            "description" => "At this stage, we find the best solutions to the identified problems. With analyzing the market as well as the weakness and strength of competitors, we identify the target audience needs. This will help us to reduce the likelihood of failure in the future and make the design as successful as possible..",
 
                         ],
                     "image" => "/assets/images/story/design-3.jpg",
@@ -124,8 +128,8 @@ class PageController extends Controller
                 [
                     "heading" =>
                         [
-                            "title" => "Prototype",
-                            "description" => "As soon as a visual aspect is clear, we proceed to a technical part of design. At this stage we engage in product our development team and find out the most efficient ways of implementing it in your project. It means that we create not only design, we know the best way how to perform it into real.",
+                            "title" => "Prototype Design",
+                            "description" => "After identifying the visual aspects of the project, we turn to the technical part of the design. At this stage, we will involve our development team in the project and find out the most efficient ways for implementing the design in the project. This means that in addition to creating the design, we provide the best way to perform it into the real.",
 
                         ],
                     "image" => "/assets/images/story/design-4.jpg",
@@ -134,8 +138,8 @@ class PageController extends Controller
                 [
                     "heading" =>
                         [
-                            "title" => "Test",
-                            "description" => "Since all designs are agreed, we start the development process. From day one we do testing to make sure that the product meets criteria and requirements. Before the launch we make one more testing to ensure that the final user will get only a pleasant experience using your product",
+                            "title" => "The Testing Stage",
+                            "description" => "The development process will be started as soon as all designs are approved. From the beginning, the necessary tests are performed to make sure that the product meets all the criteria and requirements. Before launching, we will perform another test to make sure that the end user will have a pleasant experience using your product.",
 
                         ],
                     "image" => "/assets/images/story/design-5.jpg",
@@ -152,22 +156,22 @@ class PageController extends Controller
             ],
             "items" => [
                 [
-                    "title" => "Branding",
+                    "title" => "Brand Design",
                     "image" => "/assets/images/features/clock.png",
                     "url" => "design",
-                    "description" => "We provide our clients with branding and rebranding services. We express your vision of the brand – from simple idea until a recognizable brand. Our team of experts makes market research to develop the most suitable brand strategy for your product. We develop products and create brands that differ.",
+                    "description" => "Design is an essential part of a business strategy and makes your product visible and your brand recognizable! We offer both branding and rebranding to our customers. We develop the most benefitial brand strategy for your product, based on the results of the research conducted by our marketing professionals.",
                 ],
                 [
                     "title" => "UI/UX",
                     "image" => "/assets/images/features/responsive.png",
                     "url" => "web-development",
-                    "description" => "We use a bunch of tools that help us to make interface catch more attention and at the same time be simple, navigating and intuitive. We are not about standard solutions, we aim to add new meaning to your digital product and make users love it.",
+                    "description" => "Using effective tools, we make eye-catching interface for your product. We create wonderful products users love. ",
                 ],
                 [
                     "title" => "Animation Illustration",
                     "image" => "/assets/images/features/speed.png",
                     "url" => "mobile-development",
-                    "description" => "Implementing blockchain technology to our development process help us to offer highly robust and customized solutions to businesses. With a new engineering approach our team of outstanding experts will take your business to the next level.",
+                    "description" => "Creativity is our strength and makes us special! Creating interesting and engaging illustration/animations is what we provide you as an effective way taking your business to the next level.",
                 ],
             ]
 
@@ -176,17 +180,17 @@ class PageController extends Controller
 
         $manager = [
             "heading" => [
-                "title" => "Meet the Afracode Design Manager",
-                "description" => "An efficient manager is a prerequisite for the success of a team",
+                "title" => "Meet Our Design Manager at Afracode!",
+                "description" => "A knowledgebale, experienced, and creative design manager is a prerequisite for the success of a team",
                 "position" => "center"
             ],
             "items" => [
                 "image" => "/assets/images/team/maryam.jpg",
                 "title" => "Meet the director of the Afracode design department",
-                "description" => "An efficient manager is a prerequisite for the success of a team",
+                "description" => "A knowledgebale, experienced, and creative art manager is a prerequisite for the success of a team",
                 "name" => "Maryam Sharifineyestani",
-                "role" => "Art director",
-                "bio" => "An efficient manager is a prerequisite for the success of a team..."
+                "role" => "Art Director",
+                "bio" => "Creative and enthusiastic designer with more than 10 years of experience in Branding, Logo Design, User Experience, End-to-end Design of Apps, Websites, and Digital Products. Passionate about psychology makes her more interested in designing an egaging user experience."
             ]
         ];
 
@@ -221,10 +225,9 @@ class PageController extends Controller
 
         $hero = [
             "heading" => [
-                "h1" => "Artificial intelligence & Machine learning",
-                "subTitle" => "Transform into an AI-driven company, using machine learning models that bring complex solutions for your business needs.",
+                "h1" => "Artificial Intelligence & Machine Learning",
                 "title" => null,
-                "description" => "We use machine intelligence to increase and enhance customer experience and boost process and operational productivity in an innovative, effective, and trustful way. Our team of scientists has fundamental knowledge and expertise in designing, implementing and integrating artificial intelligence solutions specific to your industry demands.",
+                "description" => "Our team of scientists provide advanced Intelligence Solutions for your business. Using artificial intelligence and machine learning, we improve customer experience and increase productivity in an innovative and effective way.",
                 "position" => null,
                 "className" => "",
                 "label" => "",
@@ -238,35 +241,35 @@ class PageController extends Controller
             ],
             "items" => [
                 [
-                    "title" => "Decision-Making Solution",
+                    "title" => "Predictive Modeling",
                     "image" => "/assets/images/features/clock.png",
                     "url" => "design",
-                    "body" => "Decision making has never been so simple. Automate business decisions with our AI-powered Decision-Making Solution. Innovative algorithmic and predictive system helps to find and choose the most suitable decisions.",
+                    "body" => "Our Predictive Models provide accurate predictions that enables companies to make more effective business decisions and deliver better customer services.",
                 ],
                 [
-                    "title" => "Predictive Modeling",
+                    "title" => "Business Decision-making Solutions",
                     "image" => "/assets/images/features/responsive.png",
                     "url" => "web-development",
-                    "body" => "Our Predictive Modeling solution helps businesses evaluate customer lifecycle, find more advantageous marketing strategies, consider product pricing creation, and provide better customer service.",
+                    "body" => "Thanks to Machine Learning and AI-powered solutions, we can analyze large datasets faster and more accurately and therefore accelerate the decision-making processes in your company. ",
                 ],
                 [
-                    "title" => "Chat bots",
+                    "title" => "Chat Bots",
                     "image" => "/assets/images/features/speed.png",
                     "url" => "mobile-development",
-                    "body" => "Brilliant support, as well as great customer experience, now is possible with our top-notch AI-driven chatbots and virtual agents, which provide contextual and personalized customer conversations.",
+                    "body" => "We automate and improve your customer service through our powerful AI-powered chat bots which delivering contextual and personalized customer conversations.  ",
                 ],
                 [
-                    "title" => "Computer vision",
+                    "title" => "Artificial Design Intelligence",
                     "image" => "/assets/images/features/speed.png",
                     "url" => "mobile-development",
-                    "body" => "Our Computer vision empowers machines to identify and process pictures in the same way as a human does. With Computer Vision artificial systems are able to access compound data and provide a high level of information.",
+                    "body" => "Using our AI-based solutions, we can design and optimize customized websites, create more engaging and responsive interfaces based on the project needs, business activity, or personal preferences. ",
                 ],
             ]
         ];
 
         $story = [
             "heading" => [
-                "title" => "How does development process look like?",
+                "title" => "How does AI/ML development process look like on Afracode?",
                 "position" => "center",
             ],
             "image" => "assets/images/story/design-process.png",
@@ -275,7 +278,7 @@ class PageController extends Controller
                     "heading" =>
                         [
                             "title" => "Data Acquisition",
-                            "description" => "We analyze your business to find out what AI model will suit your company needs. We do detailed research to define how we can solve current issues, improve company performance and boost your profit.",
+                            "description" => "With analyzing your business needs, we will determine whether your business really need an AI solution and if it does, we will find out the best AI model which suits your business. Our AI scientists will conduct research to specify how we can resolve the current issues and improve your company's performance.",
 
                         ],
                     "image" => "assets/images/story/data-1.jpg",
@@ -292,8 +295,8 @@ class PageController extends Controller
                 [
                     "heading" =>
                         [
-                            "title" => "Hypothesis & Modeling",
-                            "description" => "To find out what type of machine learning model will work the best with your business, we transform data used on the previous phase for the training and testing it with extra features.",
+                            "title" => "Hypothesis Testing and Modeling",
+                            "description" => "We will train and test data to discover which type of machine learning model will work the best for your business.",
 
                         ],
                     "image" => "assets/images/story/data-3.jpg",
@@ -303,7 +306,7 @@ class PageController extends Controller
                     "heading" =>
                         [
                             "title" => "Evaluation & Interpretation",
-                            "description" => "We choose the most effective machine learning algorithm and create a custom AI model for the engineering which fit all business needs of your enterprise.",
+                            "description" => "In this phase, the most efficient machine learning algorithm and AI model will be chosen which fit your business needs.",
 
                         ],
                     "image" => "assets/images/story/data-4.jpg",
@@ -313,7 +316,7 @@ class PageController extends Controller
                     "heading" =>
                         [
                             "title" => "Deployment",
-                            "description" => "We integrate the chosen AI model to the system and all processes in your business.",
+                            "description" => "We integrate the chosen AI model to your business.",
 
                         ],
                     "image" => "assets/images/story/data-5.jpg",
@@ -323,7 +326,7 @@ class PageController extends Controller
                     "heading" =>
                         [
                             "title" => "Optimization",
-                            "description" => "In the final phase, we check the machine learning model in work and make an improvement if needed.",
+                            "description" => "In the final step, we check the machine learning model and improve it as needed.",
 
                         ],
                     "image" => "assets/images/story/data-5.jpg",
@@ -334,50 +337,47 @@ class PageController extends Controller
 
         $feature2 = [
             "heading" => [
-                "title" => "How ML can benefit your business?",
-                "description" => "ML helps to extract important information from limitless raw data. Implemented in the right way, ML can serve as a solution to a variety of business problems, and predict complex customer behaviors. There are some areas listed below where ML can help your business be one step ahead.",
+                "title" => "In which area, Machine Learning can be benefitial to your business?",
+                "description" => "Some of the areas in which ML can be applicable are listed below:",
                 "position" => "center",
             ],
             "items" => [
                 [
                     "title" => "Sales",
 
-                    "ul" => ["Improve sales forecasting",
-                        "Interpret customer data",
-                        "Predict customer needs",
-                        "Efficient transactional sales",
-                        "Sales communication",
+                    "ul" => ["Improving Sales Forecasting",
+                         "Customer Data Analysis",
+                        "Predicting Customer Needs",
+                        "Successful Sales Communication",
                     ], "image" => "/assets/images/features/sale.png",
-                ],
-                [
-                    "title" => "Banking & Finance",
-
-                    "ul" => [
-                        "Detecting fraud",
-                        "Underwriting loan/insurance",
-                        "Algorithmic trading",
-                        "Portfolio management",
-                        "Sentiment/new analysis",
-                        "Customer service",
-                    ], "image" => "/assets/images/features/accounting.png",
                 ],
                 [
                     "title" => "Marketing",
 
                     "ul" => [
-                        "Personalize mail campaigns",
-                        "Precisely meet the customer�s requirements",
-                        "Offer customized offers to customers",
-                        "Analyze previous buying patterns"
+                        "Email Campaign Personalization",
+                        "Meeting Customers' Needs",
+                        "Offering Customized Products",
+                        "Analyzing buying patterns",
+                    ], "image" => "/assets/images/features/accounting.png",
+                ],
+                [
+                    "title" => "Banking & Finance",
+
+                    "ul" => [
+                        "Customer Service",
+                        "Portfolio Management",
+                        "Fraud Detection",
+                        "Sentiment Analysis"
                     ], "image" => "/assets/images/features/computer.png",
                 ],
                 [
                     "title" => "Human Resources",
 
                     "ul" => [
-                        " Track and assess applicants",
-                        " Attract relevant talent",
-                        " Detect attrition",
+                        " Screening and Evaluating Candidates",
+                        " Attracting Relevant Talent",
+                        " Attrition Detection",
                         " Individual skill management"
                     ], "image" => "/assets/images/features/resume.png",
                 ],
@@ -387,17 +387,17 @@ class PageController extends Controller
 
         $manager = [
             "heading" => [
-                "title" => "Meet the director of AI Afracode",
-                "description" => "An efficient manager is a prerequisite for the success of a team",
+                "title" => "Meet the director of AI/ML at Afracode",
+                "description" => "A Knowlegeble manager is essential for the success of a team",
                 "position" => "center"
             ],
             "items" => [
                 "image" => "/assets/images/team/elham.png",
-                "title" => "Meet the director of AI Afracode",
-                "description" => "An efficient manager is a prerequisite for the success of a team",
+                "title" => "Meet the director of ML/AI development at Afracode",
+                "description" => "A Knowlegeble manager is essential for the success of a team",
                 "name" => "Elham Sharifineyestani",
                 "role" => "AI Department Manager",
-                "bio" => "Elham has a Ph.D.  in Engineering from Old Dominion University and a MS.c. in Engineering from sharif university of technology. She has over eight years of experience in numerical modeling, data analysis, and programming. Her specialities include: data analysis, Machine learning, and programming especially with Matlab, R, Python, and FORTRAN."
+                "bio" => "Elham is a data scientist with Ph.D. in Engineering and over 8 yeras of work experience. She is highly skilled in data analysis, machine-learning, and predictive analytics. Besides of her profesional experience in programming, she loves digital marketing and is launching her own business as an entrepreneur."
             ]
         ];
 
