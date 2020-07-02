@@ -431,8 +431,7 @@ class PageController extends Controller
         $hero = [
             "heading" => [
                 "h1" => "Web Development",
-                "subTitle" => "Future Web Platform",
-                "description" => "Catch your dream website or web application with us! As a full-stack web development company, we offer a wide range of custom end-to end solutions that boost your business and run it on the web. We put all our efforts to create web apps, services, and sites that meet your expectations and satisfy the business needs of your company.",
+                "description" => "With Afracode, you will have an amazing website for yourself or your business! Afracode provides you customized end-to-end solutions to boost your business. We create a website which meets your expectations and satisfy your business needs. ",
                 "position" => null,
             ]
         ];
@@ -441,8 +440,8 @@ class PageController extends Controller
 
         $story = [
             "heading" => [
-                "title" => "How does the creation process looks like",
-                "description" => "We offer comprehensive services and professional support at every stage of cooperation.",
+                "title" => "How does the we development process look like at Afracode!",
+                "description" => "At each stage of development, we provide you professional services and full support.",
                 "position" => "center",
             ],
             "image" => "assets/images/story/design-process.png",
@@ -450,8 +449,8 @@ class PageController extends Controller
                 [
                     "heading" =>
                         [
-                            "title" => "Discover & Estimate",
-                            "description" => "Before the start, we make a research and deep analysis of the business-related industry to reduce technical and market risks while software development. We negotiate all requirement and write product specification considering your design suggestion. We discuss every detail while planning to satisfy your vision of the product.",
+                            "title" => "Discover & Evaluate",
+                            "description" => "First, we research and analyze your business-related industry to gain required knowledge of important factors which matters for your business and your website. We discuss about all requirements and your design suggestion to satisfy your business needs.",
 
                         ],
                     "image" => "assets/images/story/web-1.jpg",
@@ -460,7 +459,7 @@ class PageController extends Controller
                     "heading" =>
                         [
                             "title" => "Design",
-                            "description" => "After absorbing your requirements and transformed them into prototypes you can click on. We create a recognizable design with simple and intuitive navigation to deliver a pleasant user experience.",
+                            "description" => "After researching and estimating your needs, we create a prototype on which you can click. Then, we create a unique design with a satisfying user experience.",
 
                         ],
                     "image" => "assets/images/story/web-2.jpg",
@@ -468,8 +467,8 @@ class PageController extends Controller
                 [
                     "heading" =>
                         [
-                            "title" => "Development",
-                            "description" => "When we have designs our team of architects and engineers build the core of your product – secured, complex and trusted. We based our development process on agile methodology and it helps us to use time and resources in the most effective way, keep you updated and systematically demonstrate our results.",
+                            "title" => "Development and Coding",
+                            "description" => "After the design stage, our engineers will create the website itself. Frameworks and CMS (Content Management System) will be employed to make sure that the server can manage the installations efficiently. ",
 
                         ],
                     "image" => "assets/images/story/web-3.jpg",
@@ -479,27 +478,18 @@ class PageController extends Controller
                     "heading" =>
                         [
                             "title" => "Testing",
-                            "description" => "According to our standards of a development process, we keep both manual and automation testing while lifecycle of product development. We make sure that every link, script and form act and work in a proper way.",
+                            "description" => "We will perform both manual and automatic testing based on our standards of development process. We check every single link, form, script to find any possible error and fix it. After checking and rechecking your website, we will upload it to a server. The final check will be performed to make sure everything works great. ",
 
                         ],
                     "image" => "assets/images/story/web-4.jpg",
                 ],
 
-                [
-                    "heading" =>
-                        [
-                            "title" => "Go live",
-                            "description" => "Once we finished testing and ensure that the product is stable, usable, secure and reliable, we are ready for the launch.",
-
-                        ],
-                    "image" => "assets/images/story/web-5.jpg",
-                ],
 
                 [
                     "heading" =>
                         [
                             "title" => "Maintenance",
-                            "description" => "There is always room for improvement as we all work in limitless progress. That`s why we stay in touch with a client even after products’ release and ready to solve any issue at any time.",
+                            "description" => "After launching the website, we will still stay in touch with our clients to make sure that everything works great, and the clients are satisfied. We always are ready for improving your website and solving any possible issue at any time.",
 
                         ],
                     "image" => "assets/images/story/web-5.jpg",
@@ -512,7 +502,7 @@ class PageController extends Controller
             "heading" => [
                 "title" => "Tools",
 //                "subTitle" => "Let your ideas be implemented into reality with the core technologies.",
-                "description" => "We use the most innovative up to date tools to provide you with the highest development standards.",
+                "description" => "Using the most up-to-date tools, we deliver you the greatest development process.",
                 "position" => "center",
             ],
             "items" => [
@@ -575,31 +565,32 @@ class PageController extends Controller
 
         $hero = [
             "heading" => [
-                "h1" => "Mobile App development",
-                "subTitle" => "Let’s go Mobile world. Impactful custom app development it is about us.",
-                "description" => "Leverage our comprehensive approach for industry-specific solutions. We provide our clients with both cross-platform or native apps considering all business needs. We’ve been using the most innovative technologies to increase business security, improve key operations and provide an exceptional user experience for the customers.",
+                "h1" => "App Development",
+                "subTitle" => "What we offer! impactful mobile app development services for Android and iOS.",
+                "description" => "We offer both Cross-platform and native mobile development to assure our clients’ needs are met. Using the most innovative technologies, we have improved business security and provided exceptional customer experience.",
             ]
         ];
 
         $feature = [
             "heading" => [
-                "title" => "We are professionals in React Native and Flutter",
+                "title" => "We are expert in React Native and Flutter Frameworks!",
                 "position" => "center",
             ],
             "items" => [
                 [
                     "title" => "Fast delivery",
-                    "description" => "We know how to create your app in the shortest time - from user-facing front-end up to the server side behind it. With a set of tools that we use it is easy to get your app completely up and running.",
+					
+                    "description" => "Creating your app in the shortest time and with high quality is our priority.",
                     "image" => "/assets/images/features/clock.png",
                 ],
                 [
-                    "title" => "Adaptable and modifying UI",
-                    "description" => "We focus on native end-user experience. Our ready-made modules and layered architecture allows to make any changes extremely fast which leads to remarkable and expressive designs.",
+                    "title" => "Adaptable & Adaptive User Interface",
+                    "description" => "Our ready-made modules and layered architecture enable us to make any changes much fast leading to exceptional and powerful designs.",
                     "image" => "/assets/images/features/responsive.png",
                 ],
                 [
                     "title" => "Excellent performance",
-                    "description" => "We pay attention to every principle platform difference such as fronts, scrolling, navigation to provide full native performance on IOS and android.", "image" => "/assets/images/features/speed.png",
+                    "description" => "To provide a full native performance on IOS and android, we pay attention to all important platform differences such as scrolling, navigation, icons, and font.", "image" => "/assets/images/features/speed.png",
                 ],
 
 
@@ -608,7 +599,7 @@ class PageController extends Controller
 
         $story = [
             "heading" => [
-                "title" => "It’s easy go",
+                "title" => "It's easy go!",
                 "position" => "center",
             ],
             "image" => "assets/images/story/design-process.png",
@@ -617,7 +608,7 @@ class PageController extends Controller
                     "heading" =>
                         [
                             "title" => "Discover & Estimate",
-                            "description" => "We collect and analyze your requirements to solve the challenge and bring the best solution considering timeline and budget. As soon as we get your main and agreed app features and design, we are ready to start the journey.",
+                            "description" => "Analyzing your needs, we provide you the best solution based on your timeline and budget. After you agree on the main features and design, we start developing your app.",
 
                         ],
                     "image" => "assets/images/story/data-1.jpg",
@@ -625,8 +616,8 @@ class PageController extends Controller
                 [
                     "heading" =>
                         [
-                            "title" => "Design & Clickable prototype",
-                            "description" => "Based on expertise that we’ve got after the first stage, we proceed to clickable prototype creation. We will make sure that you get couple layouts to choose the best way to perform them into UI/UX design.",
+                            "title" => "Design & Clickable Prototype",
+                            "description" => "Based on the information we obtained in the first stage, we create a clickable prototype that looks and works similarly to your app. In this stage, we want to make sure you are satisfied with your design and ideas!",
 
                         ],
                     "image" => "assets/images/story/data-2.jpg",
@@ -634,8 +625,8 @@ class PageController extends Controller
                 [
                     "heading" =>
                         [
-                            "title" => "APP development",
-                            "description" => "Design creation closely relates with development process. We divide development into sprints which gives us a chance to demonstrate you results of our work and get your feedback at every touchpoint.",
+                            "title" => "APP Development",
+                            "description" => "In the development process, the design will be created. We show you our work and get your feedback on every stage!",
 
                         ],
                     "image" => "assets/images/story/data-3.jpg",
@@ -645,7 +636,7 @@ class PageController extends Controller
                     "heading" =>
                         [
                             "title" => "Testing",
-                            "description" => "Quality assurance is necessary for flawless app releases. We put on duty the team of experts that fix any possible bugs and defects and ensure your software goes like a clockwork.",
+                            "description" => "Our professional will recognize and fix any potential bugs and errors to assure a flawless app!",
 
                         ],
                     "image" => "assets/images/story/data-4.jpg",
@@ -655,7 +646,7 @@ class PageController extends Controller
                     "heading" =>
                         [
                             "title" => "Deployment",
-                            "description" => "After all work is done, we are ready to show your product to the world and deliver the most enjoyable user experience for your customers.",
+                            "description" => "Now, we are excited to show your app to the world and bring your customers the most pleasant user experience.",
 
                         ],
                     "image" => "assets/images/story/data-5.jpg",
@@ -665,7 +656,7 @@ class PageController extends Controller
                     "heading" =>
                         [
                             "title" => "Maintenance",
-                            "description" => "After the product release, we support and improve your app to meet demanding end users needs in future. Our team stay in touch with you and ready to help with any issue at any time.",
+                            "description" => "After launching your app, we support and improve it to meet end-user demands in the future. Our team will be in touch with you to help with any issue at any time.",
 
                         ],
                     "image" => "assets/images/story/data-5.jpg",
@@ -708,7 +699,7 @@ class PageController extends Controller
     {
         $heading = [
             "h1" => "Login",
-//           "subTitle" =>"اطلاعات تماس خود را وارد نمایید تا در اسرع وقت با شما تماس بگیریم",
+//           "subTitle" =>"Please enter your contact information, we call you very soon!",
 
             "position" => "center"
         ];
@@ -776,9 +767,9 @@ class PageController extends Controller
     {
         $hero = [
             "heading" => [
-                "h1" => "About us",
-                "subTitle" => "Innovative. Challenging. Reliable.",
-                "description" => "We are an innovative technology company, specializing in mobile web development, design creation, Blockchain and STO development solutions. We do believe in approaching every project no matter how creative your idea is. Combining our tech expertise with your business needs we ensure that your business will have a profitable competitive advantage.",
+                "h1" => "Our Story",
+                "description" => "Afracode is an online-based tech company that provides a range of services including design creation, branding, web development, mobile app development, and ML/AI solutions. We promise big and effective changes in your business.
+				Afra is the persian name of Maple tree. It is the symbol of Changes as it produces different shades of leave colors during the autumn season. Afra tells you big changes are on the way!",
             ],
         ];
 
